@@ -1,0 +1,56 @@
+/* Custom Navy Theme */
+.bg-navy {
+  background-color: #001f3f !important;
+}
+
+.btn-navy {
+  background-color: #001f3f;
+  color: #fff;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-navy:hover {
+  background-color: #003366;
+}
+
+h2 {
+  color: #001f3f;
+  font-weight: 700;
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Footer Links */
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Table */
+table th, table td {
+  vertical-align: middle !important;
+}
+
+/* Profile Photo */
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;          
+  border-radius: 50%;         
+  border: 4px solid #fff;     
+  box-shadow: 0 0 10px rgba(0,0,0,0.3); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-pic:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+td img {
+  border-radius: 10px;
+  margin-bottom: 8px;
+}
